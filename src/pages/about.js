@@ -472,7 +472,7 @@ SmartLearning  ничто не поможет вам столь быстро в
 				{"    "}
 			</Stack>
 		</Section>
-		<Components.Usp />
+		<Components.Usp1 />
 		<Components.CustomFooter />
 		<Link
 			font={"--capture"}

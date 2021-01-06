@@ -145,7 +145,7 @@ export default (() => {
 			<Override
 				slot="SectionContent"
 				width="100%"
-				background="linear-gradient(180deg,rgba(57, 12, 150, 0.63) 0%,rgba(0,0,0,0) 100%) 0 0 no-repeat,#191C23 url(https://images.unsplash.com/photo-1579546928937-641f7ac9bced?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&h=2000) center center/cover repeat scroll padding-box"
+				background="linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 36.2%,rgba(57, 12, 150, 0.63) 100%) 0 0 no-repeat,#191C23 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/ta5KEItpeTI.jpg?v=2021-01-06T12:55:28.866Z) center center/cover repeat scroll padding-box"
 				height="620px"
 				align-items="center"
 				justify-content="center"
@@ -794,7 +794,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Components.Usp />
+		<Components.Usp1 />
 		<Components.CustomFooter />
 		<Link
 			font={"--capture"}

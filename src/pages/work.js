@@ -304,7 +304,7 @@ export default (() => {
 				</Components.Img>
 			</Stack>
 		</Section>
-		<Components.Usp />
+		<Components.Usp1 />
 		<Components.CustomFooter />
 		<Link
 			font={"--capture"}

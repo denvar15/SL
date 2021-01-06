@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
@@ -151,7 +151,7 @@ export default (() => {
 						height="480px"
 						sm-height="180px"
 						md-height="360px"
-						background="linear-gradient(70deg,rgba(57, 12, 150, 0.63) 0%,rgba(0,0,0,0) 100%) 0 0 no-repeat,#191C23 url(https://images.unsplash.com/photo-1579546928937-641f7ac9bced?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&h=2000) center center/cover repeat scroll padding-box"
+						background="#191C23 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/ffff.png?v=2021-01-06T12:58:59.089Z) center center/cover repeat scroll padding-box"
 					/>
 					{"        "}
 					<Text
@@ -405,7 +405,124 @@ export default (() => {
 					</Text>
 				</StackItem>
 				<StackItem
-					width="25%"
+					lg-width="33.33%"
+					sm-width="100%"
+					width="18.75%"
+					quarkly-title="Card"
+					md-width="100%"
+					sm-padding="16px 0px 16px 0px"
+				>
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						padding="0px 0px 0px 0px"
+						md-flex-direction="row"
+						sm-flex-direction="row"
+						md-align-items="stretch"
+						md-max-height="100%"
+					/>
+					<Box
+						background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/aalexey.png?v=2021-01-06T12:59:50.796Z) center center/100%"
+						width="100%"
+						quarkly-title="Image"
+						padding="0px 0px 121% 0px"
+						md-margin="0px 0px 0px 0px"
+						md-padding="0px 0px 0px 0px"
+						md-width="200px"
+						hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
+						md-height="250px"
+						sm-height="auto"
+						xl-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/aalexey.png?v=2021-01-06T12:59:50.796Z) center center/100%"
+						xl-hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						sm-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/aalexey.png?v=2021-01-06T12:59:50.796Z) center center/100%"
+						sm-hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						lg-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/aalexey.png?v=2021-01-06T12:59:50.796Z) center center/100%"
+					/>
+					<Box
+						md-margin="0px 0px 0px 24px"
+						md-display="flex"
+						md-flex-direction="column"
+						md-width="50%"
+						sm-margin="0px 0px 0px 0px"
+						sm-width="100%"
+						sm-padding="0px 0px 10% 18px"
+					>
+						<Text
+							font="--headline3"
+							margin="24px 0px 8px 0px"
+							color="--dark"
+							quarkly-title="Name"
+							md-margin="0px 0px 4px 0px"
+							md-font="--lead"
+							sm-margin="0px 0px 4px 0px"
+						>
+							Алексей
+						</Text>
+						<Text
+							font="--base"
+							margin="0px 0px 0px 0px"
+							opacity="0.6"
+							color="--dark"
+							quarkly-title="Position"
+							md-margin="0px 0px 0px 0px"
+						>
+							Android
+						</Text>
+						<Text
+							font="--base"
+							margin="18px 0px 0px 0px"
+							display="inline-block"
+							opacity="0.6"
+							quarkly-title="Contacts"
+							color="--dark"
+							sm-margin="10px 0px 0px 0px"
+						>
+							<Link
+								href="mailto:dev@company.com"
+								color="--dark"
+								opacity="0.6"
+								target="_blank"
+								quarkly-title="Email"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								transition="opacity .15s ease 0s"
+								font="--base"
+								text-decoration-line="initial"
+								hover-text-decoration-line="underline"
+							>
+								some@company.com
+							</Link>
+							<Link
+								href="tel:+1(234)567-89-03"
+								target="_blank"
+								quarkly-title="Phone"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								display="block"
+								color="--dark"
+								text-decoration-line="initial"
+								hover-opacity="1"
+								opacity="1"
+								transition="opacity .15s ease 0s"
+								font="--base"
+								hover-text-decoration-line="underline"
+							>
+								+1(234)567-89-03
+							</Link>
+						</Text>
+					</Box>
+				</StackItem>
+				<StackItem
+					width="18.75%"
 					lg-width="33.33%"
 					sm-width="100%"
 					lg-margin="0px 0px 30px 0px"
@@ -425,7 +542,7 @@ export default (() => {
 						md-max-height="100%"
 					/>
 					<Box
-						background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/den.png?v=2021-01-06T13:00:16.007Z) center center/100%"
 						width="100%"
 						quarkly-title="Image"
 						padding-bottom="(4 / 3) * 100%"
@@ -437,10 +554,11 @@ export default (() => {
 						md-padding="0px 0px 0px 0px"
 						md-height="250px"
 						sm-height="auto"
-						sm-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						sm-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/den.png?v=2021-01-06T13:00:16.007Z) center center/100%"
 						sm-hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
 						xl-hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
-						xl-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						xl-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/den.png?v=2021-01-06T13:00:16.007Z) center center/100%"
+						lg-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/den.png?v=2021-01-06T13:00:16.007Z) center center/100%"
 					/>
 					<Box
 						md-width="50%"
@@ -530,7 +648,7 @@ export default (() => {
 				<StackItem
 					lg-width="33.33%"
 					sm-width="100%"
-					width="25%"
+					width="18.75%"
 					quarkly-title="Card"
 					md-width="100%"
 					sm-padding="16px 0px 16px 0px"
@@ -545,7 +663,7 @@ export default (() => {
 						md-max-height="100%"
 					/>
 					<Box
-						background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/nik.png?v=2021-01-06T13:00:06.740Z) center center/100%"
 						width="100%"
 						quarkly-title="Image"
 						padding="0px 0px 121% 0px"
@@ -556,10 +674,11 @@ export default (() => {
 						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 						md-height="250px"
 						sm-height="auto"
-						xl-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						xl-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/nik.png?v=2021-01-06T13:00:06.740Z) center center/100%"
 						xl-hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
-						sm-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						sm-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/nik.png?v=2021-01-06T13:00:06.740Z) center center/100%"
 						sm-hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						lg-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/nik.png?v=2021-01-06T13:00:06.740Z) center center/100%"
 					/>
 					<Box
 						md-margin="0px 0px 0px 24px"
@@ -647,11 +766,13 @@ export default (() => {
 					</Box>
 				</StackItem>
 				<StackItem
+					width="18.75%"
 					lg-width="33.33%"
 					sm-width="100%"
-					width="25%"
+					lg-margin="0px 0px 30px 0px"
 					quarkly-title="Card"
 					md-width="100%"
+					md-margin="0px 0px 0px 0px"
 					sm-padding="16px 0px 16px 0px"
 				>
 					<Override
@@ -659,32 +780,35 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 						md-flex-direction="row"
-						sm-flex-direction="row"
 						md-align-items="stretch"
+						md-justify-content="flex-start"
+						sm-flex-direction="row"
 						md-max-height="100%"
 					/>
 					<Box
-						background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/n.png?v=2021-01-06T13:00:43.550Z) center center/100%"
 						width="100%"
 						quarkly-title="Image"
+						padding-bottom="(4 / 3) * 100%"
 						padding="0px 0px 121% 0px"
 						md-margin="0px 0px 0px 0px"
-						md-padding="0px 0px 0px 0px"
-						md-width="200px"
 						hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
 						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
+						md-width="200px"
+						md-padding="0px 0px 0px 0px"
 						md-height="250px"
 						sm-height="auto"
-						xl-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
-						xl-hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
-						sm-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						sm-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/n.png?v=2021-01-06T13:00:43.550Z) center center/100%"
 						sm-hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						xl-hover-background="--color-lightD1 url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center center/200%"
+						xl-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/n.png?v=2021-01-06T13:00:43.550Z) center center/100%"
+						lg-background="--color-lightD1 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/n.png?v=2021-01-06T13:00:43.550Z) center center/100%"
 					/>
 					<Box
+						md-width="50%"
 						md-margin="0px 0px 0px 24px"
 						md-display="flex"
 						md-flex-direction="column"
-						md-width="50%"
 						sm-margin="0px 0px 0px 0px"
 						sm-width="100%"
 						sm-padding="0px 0px 10% 18px"
@@ -692,23 +816,25 @@ export default (() => {
 						<Text
 							font="--headline3"
 							margin="24px 0px 8px 0px"
+							text-align="left"
 							color="--dark"
 							quarkly-title="Name"
 							md-margin="0px 0px 4px 0px"
-							md-font="--lead"
 							sm-margin="0px 0px 4px 0px"
+							md-font="--lead"
 						>
-							Алексей
+							Анастасия
 						</Text>
 						<Text
 							font="--base"
 							margin="0px 0px 0px 0px"
+							text-align="left"
 							opacity="0.6"
 							color="--dark"
 							quarkly-title="Position"
 							md-margin="0px 0px 0px 0px"
 						>
-							Android
+							SMM/Design
 						</Text>
 						<Text
 							font="--base"
@@ -716,11 +842,12 @@ export default (() => {
 							display="inline-block"
 							opacity="0.6"
 							quarkly-title="Contacts"
+							text-align="left"
 							color="--dark"
 							sm-margin="10px 0px 0px 0px"
 						>
 							<Link
-								href="mailto:dev@company.com"
+								href="mailto:head@company.com"
 								color="--dark"
 								opacity="0.6"
 								target="_blank"
@@ -739,7 +866,7 @@ export default (() => {
 								some@company.com
 							</Link>
 							<Link
-								href="tel:+1(234)567-89-03"
+								href="tel:+1(234)567-89-01"
 								target="_blank"
 								quarkly-title="Phone"
 								overflow-wrap="normal"
@@ -757,7 +884,7 @@ export default (() => {
 								font="--base"
 								hover-text-decoration-line="underline"
 							>
-								+1(234)567-89-03
+								+1(234)567-89-01
 							</Link>
 						</Text>
 					</Box>
@@ -765,82 +892,7 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Section
-			quarkly-title="USP"
-			padding="75px 0 50px 0"
-			lg-padding="25px 0 25px 0"
-			lg-height="auto"
-			justify-content="center"
-		>
-			<Override
-				slot="SectionContent"
-				width="100%"
-				margin="0px 32px 0px 32px"
-				md-margin="0px 16px 0px 16px"
-				min-width="auto"
-			/>
-			<Stack>
-				{"    "}
-				<StackItem width="100%" display="flex">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						height="480px"
-						background="linear-gradient(180deg,rgba(24, 29, 34, 0.5) 0%,transparent 100%) 0 0 no-repeat,--color-lightD1 url(https://images.unsplash.com/photo-1548393488-ae8f117cbc1c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&h=2000) center center/cover no-repeat"
-						flex-direction="column"
-						md-height="360px"
-						padding="36px 24px 36px 24px"
-						sm-height="280px"
-						lg-height="420px"
-					/>
-					{"        "}
-					<Text
-						margin="10px 0px 15px 0px"
-						font="--headline2"
-						text-align="center"
-						quarkly-title="Title"
-						color="--light"
-						md-font="--headline3"
-					>
-						Начать учить!
-					</Text>
-					<Text
-						margin="0px 0px 28px 0px"
-						font="--lead"
-						opacity="0.6"
-						text-align="center"
-						quarkly-title="Description"
-						color="--light"
-						max-width="720px"
-					>
-						Уникальная система оценки качества запоминания
-					</Text>
-					<Button
-						padding="8px 36px 8px 36px"
-						font="--lead"
-						letter-spacing="0.5px"
-						transition="opacity .15s ease 0s"
-						position="relative"
-						z-index="5"
-						background="--color-light"
-						opacity="1"
-						hover-opacity=".85"
-						focus-box-shadow="none"
-						hover-box-shadow="none"
-						active-box-shadow="none"
-						margin="10px auto 0px auto"
-						width="fit-content"
-						md-font="--base"
-						color="--darkL2"
-					>
-						Скачать!
-					</Button>
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
+		<Components.Usp1 />
 		<Components.CustomFooter />
 		<Link
 			font={"--capture"}
