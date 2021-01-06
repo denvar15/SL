@@ -151,7 +151,7 @@ export default (() => {
 						height="480px"
 						sm-height="180px"
 						md-height="360px"
-						background="#191C23 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/eeee.png?v=2021-01-06T15:54:01.637Z) center center/cover repeat scroll padding-box"
+						background="#191C23 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/ekh.png?v=2021-01-06T18:03:16.443Z) center center/cover repeat scroll padding-box"
 					/>
 					{"        "}
 					<Text
