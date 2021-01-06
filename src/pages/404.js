@@ -143,7 +143,7 @@ export default (() => {
 						height="480px"
 						md-height="360px"
 						flex-direction="column"
-						background="#191C23 url(https://images.unsplash.com/photo-1579546928937-641f7ac9bced?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&h=2000) center center/cover repeat scroll padding-box"
+						background="linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 36.2%,rgba(57, 12, 150, 0.63) 100%) 0 0 no-repeat,#191C23 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/404.png?v=2021-01-06T16:37:23.935Z) center center/cover repeat scroll padding-box"
 					/>
 					{"        "}
 					<Text
