@@ -153,7 +153,7 @@ export default (() => {
 						height="480px"
 						sm-height="180px"
 						md-height="360px"
-						background="linear-gradient(150deg,rgba(57, 12, 150, 0.63) 10%,rgba(0,0,0,0) 100%) no-repeat,#191C23 url(https://images.unsplash.com/photo-1579546928937-641f7ac9bced?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&h=2000) center center/cover repeat scroll padding-box"
+						background="#191C23 url(https://uploads.quarkly.io/5fa7b2b92c4ef2001e31e59d/images/cccc.png?v=2021-01-06T15:18:08.283Z) center center/cover repeat scroll padding-box"
 					/>
 					{"        "}
 					<Text
