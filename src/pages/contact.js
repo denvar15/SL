@@ -129,7 +129,7 @@ export default (() => {
 					</Components.BurgerMenu>
 					{"    "}
 				</StackItem>
-				<Components.LinkCustom />
+				<Components.CustomLink />
 				{"    "}
 			</Stack>
 		</Section>
@@ -912,7 +912,7 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.Usp1 />
+		<Components.Usp2 />
 		<Components.CustomFooter />
 		<Link
 			font={"--capture"}

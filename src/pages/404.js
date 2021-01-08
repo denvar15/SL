@@ -128,7 +128,7 @@ export default (() => {
 					</Components.BurgerMenu>
 					{"    "}
 				</StackItem>
-				<Components.LinkCustom />
+				<Components.CustomLink />
 				{"    "}
 			</Stack>
 		</Section>

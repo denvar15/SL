@@ -129,7 +129,7 @@ export default (() => {
 					</Components.BurgerMenu>
 					{"    "}
 				</StackItem>
-				<Components.LinkCustom />
+				<Components.CustomLink />
 				{"    "}
 			</Stack>
 		</Section>
@@ -282,7 +282,7 @@ export default (() => {
 						Первый вопрос, который возникает перед исследователями нервной системы и когнитивных процессов это, что такое память? Что такое память в биологическом аспекте? Как проявляется память на уровне отдельного нейрона? И в какой форме хранится информация в нервной системе?{"\n\n"}
 					</Text>
 					<Link
-						href="/contact"
+						href="https://vk.com/app7657902"
 						text-decoration-line="initial"
 						color="--light"
 						padding="8px 18px 8px 18px"
@@ -323,7 +323,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Components.Usp1 />
+		<Components.Usp2 />
 		<Components.CustomFooter />
 		<Link
 			font={"--capture"}

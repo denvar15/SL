@@ -129,7 +129,7 @@ export default (() => {
 					</Components.BurgerMenu>
 					{"    "}
 				</StackItem>
-				<Components.LinkCustom />
+				<Components.CustomLink />
 				{"    "}
 			</Stack>
 		</Section>
@@ -180,7 +180,7 @@ export default (() => {
 				Сверхбыстрое обучение новым словам, формулам и другим знаниям!
 			</Text>
 			<Link
-				href="/about"
+				href="https://vk.com/app7657902"
 				text-decoration-line="initial"
 				color="--darkL2"
 				background="--color-light"
@@ -794,7 +794,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Components.Usp1 />
+		<Components.Usp2 />
 		<Components.CustomFooter />
 		<Link
 			font={"--capture"}

@@ -131,7 +131,7 @@ export default (() => {
 					</Components.BurgerMenu>
 					{"    "}
 				</StackItem>
-				<Components.LinkCustom />
+				<Components.CustomLink />
 				{"    "}
 			</Stack>
 		</Section>
@@ -472,7 +472,7 @@ SmartLearning  ничто не поможет вам столь быстро в
 				{"    "}
 			</Stack>
 		</Section>
-		<Components.Usp1 />
+		<Components.Usp2 />
 		<Components.CustomFooter />
 		<Link
 			font={"--capture"}
