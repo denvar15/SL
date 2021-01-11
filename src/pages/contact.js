@@ -913,7 +913,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Usp2 />
-		<Components.CustomFooter />
+		<Components.FooterNew />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

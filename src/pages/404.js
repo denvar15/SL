@@ -187,7 +187,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Components.CustomFooter />
+		<Components.FooterNew />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
