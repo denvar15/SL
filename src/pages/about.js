@@ -299,7 +299,7 @@ export default (() => {
 						lg-text-align="center"
 						text-align="center"
 					>
-						Приложение предоставляет вам опыт высочайшего качества.
+						Наша команда всегда предлагает пользователю продукты самого высокого на рынке уровня качества.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -387,7 +387,7 @@ export default (() => {
 						color="#044BD9"
 					/>
 					<Text font="--lead" margin="0px 0px 10px 0px" display="inline-block" color="--darkL2">
-						Адаптивное распиание
+						Персональный подход
 					</Text>
 					<Text
 						font="--base"
@@ -398,7 +398,7 @@ export default (() => {
 						lg-text-align="center"
 						text-align="center"
 					>
-						Учитесь тогда, когда вам нужно. SmartLearning учтёт любые промежутки.
+						Smart Learning учитывает особенности памяти пользователя.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -431,7 +431,7 @@ export default (() => {
 						lg-text-align="center"
 						text-align="center"
 					>
-						Ни одно другое приложение не предоставит вам именно такого опыта, именно такого удобства.
+						Наше приложение предоставит вам уникальный пользовательский опыт.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -464,8 +464,7 @@ export default (() => {
 						lg-text-align="center"
 						text-align="center"
 					>
-						Кроме 
-SmartLearning  ничто не поможет вам столь быстро выучить данные.{" "}
+						Вместе с Smart Learning процесс запоминания станет проще и эффективнее.{" "}
 					</Text>
 					{"    "}
 				</StackItem>

@@ -218,7 +218,7 @@ export default (() => {
 				lg-font="--lead"
 				sm-font="--base"
 			>
-				SmartLearning это первое приложение на рынке, которое учитывает индивидуальные особенности памяти пользователя.
+				SmartLearning - это первое приложение на рынке, которое учитывает индивидуальные особенности памяти пользователя.
 			</Text>
 		</Section>
 		<Section padding="100px 0 80px 0" lg-padding="60px 0 60px 0" quarkly-title="Info" justify-content="center">
